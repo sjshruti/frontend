@@ -1,0 +1,15 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#BFDBFE;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#DDD6FE;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="500" height="500" fill="url(#bg2)"/>
+  <text x="250" y="220" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#333">About</text>
+  <text x="250" y="260" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#666">Shruti Jayaswal</text>
+  <text x="250" y="300" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#888">Computer Science Graduate</text>
+  <circle cx="250" cy="150" r="50" fill="none" stroke="#8B7CF6" stroke-width="4"/>
+  <circle cx="250" cy="135" r="20" fill="#8B7CF6"/>
+  <path d="M 210 170 Q 250 200 290 170" stroke="#8B7CF6" stroke-width="4" fill="none"/>
+</svg>

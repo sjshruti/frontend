@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shruti Jayaswal - Frontend Developer Portfolio</title>
+    <meta name="description" content="Shruti Jayaswal - Computer Science graduate and passionate frontend developer specializing in modern web development and UI/UX design.">
+    <meta name="keywords" content="Shruti Jayaswal, Frontend Developer, Web Developer, Computer Science, UI/UX Design, React, JavaScript">
+    <meta name="author" content="Shruti Jayaswal">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Shruti Jayaswal - Frontend Developer Portfolio">
+    <meta property="og:description" content="Computer Science graduate and passionate frontend developer specializing in modern web development.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="#">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <i class="fas fa-code nav-icon"></i>
+                <span>Shruti Jayaswal</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#achievements" class="nav-link">Achievements</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="highlight">Shruti</span> — 
+                        <br>a passionate frontend developer
+                    </h1>
+                    <p class="hero-subtitle">
+                        Designing modern and user-friendly digital experiences with a focus on clean code and exceptional user interfaces.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Let's Connect</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/shruti-jayaswal-a264b3215" target="_blank" rel="noopener" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/sjshruti" target="_blank" rel="noopener" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:shrutijayaswal671@gmail.com" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="tel:+917619387964" aria-label="Phone">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <img src="assets/profile.jpg" alt="Shruti Jayaswal - Frontend Developer" class="profile-image">
+                        <div class="floating-icons">
+                            <div class="icon-item icon-react">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <div class="icon-item icon-js">
+                                <i class="fab fa-js-square"></i>
+                            </div>
+                            <div class="icon-item icon-html">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <div class="icon-item icon-css">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile-card">
+                        <div class="card-header">
+                            <h3>Frontend Developer</h3>
+                        </div>
+                        <div class="card-content">
+                            <p>Computer Science graduate passionate about creating stunning web experiences</p>
+                            <div class="card-contact">
+                                <i class="fas fa-phone"></i>
+                                <span>+91 76193 87964</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know more about my background and passion</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="assets/about-image.jpg" alt="Shruti Jayaswal" class="about-img">
+                </div>
+                <div class="about-text">
+                    <h3>Dedicated Frontend Developer & Computer Science Graduate</h3>
+                    <p>
+                        I'm Shruti Jayaswal, a Computer Science graduate with hands-on experience in web development. 
+                        I offer a unique blend of technical skills and creative UI/UX design capabilities, dedicated to 
+                        delivering high-quality, responsive web solutions.
+                    </p>
+                    <p>
+                        Currently expanding my knowledge in advanced tools and technologies, I'm passionate about 
+                        creating digital experiences that are not only visually appealing but also highly functional 
+                        and user-friendly.
+                    </p>
+                    
+                    <div class="education">
+                        <h4><i class="fas fa-graduation-cap"></i> Education</h4>
+                        <div class="education-item">
+                            <div class="edu-header">
+                                <h5>B.Tech in Computer Science and Engineering</h5>
+                                <span class="year">2025</span>
+                            </div>
+                            <p>CMR Institute of Technology, Bengaluru</p>
+                        </div>
+                        <div class="education-item">
+                            <div class="edu-header">
+                                <h5>Pre-University</h5>
+                                <span class="year">2020</span>
+                            </div>
+                            <p>St. Xavier's Secondary School, Nepal</p>
+                        </div>
+                        <div class="education-item">
+                            <div class="edu-header">
+                                <h5>SSLC</h5>
+                                <span class="year">2018</span>
+                            </div>
+                            <p>Mother Teresa Public School, Nepal</p>
+                        </div>
+                    </div>
+
+                    <div class="coursework">
+                        <h4><i class="fas fa-book"></i> Coursework</h4>
+                        <div class="course-tags">
+                            <span class="tag">HTML5 & CSS</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">DBMS using MySQL</span>
+                            <span class="tag">MERN Stack</span>
+                            <span class="tag">MongoDB</span>
+                            <span class="tag">Express.js</span>
+                            <span class="tag">React.js</span>
+                            <span class="tag">Node.js</span>
+                        </div>
+                    </div>
+
+                    <div class="soft-skills">
+                        <h4><i class="fas fa-lightbulb"></i> Soft Skills</h4>
+                        <div class="skills-grid">
+                            <span class="skill-item">Problem-solving</span>
+                            <span class="skill-item">Communication</span>
+                            <span class="skill-item">Adaptability</span>
+                            <span class="skill-item">Time Management</span>
+                            <span class="skill-item">Leadership</span>
+                            <span class="skill-item">Emotional Intelligence</span>
+                        </div>
+                    </div>
+
+                    <div class="resume-download">
+                        <a href="assets/Shruti_Jayaswal_Resume.pdf" download class="btn btn-outline">
+                            <i class="fas fa-download"></i>
+                            Download Resume
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technical Skills</h2>
+                <p class="section-subtitle">Technologies and tools I work with</p>
+            </div>
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-level">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-skill="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Java</span>
+                                <span class="skill-level">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-skill="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">SQL</span>
+                                <span class="skill-level">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-skill="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">C</span>
+                                <span class="skill-level">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-skill="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3><i class="fas fa-laptop-code"></i> Web Development</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">HTML5</span>
+                                <span class="skill-level">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-skill="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">CSS3</span>
+                                <span class="skill-level">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-skill="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">React JS</span>
+                                <span class="skill-level">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-skill="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3><i class="fas fa-tools"></i> Tools & Platforms</h3>
+                    <div class="tools-grid">
+                        <div class="tool-item">
+                            <i class="fas fa-code"></i>
+                            <span>VS Code</span>
+                        </div>
+                        <div class="tool-item">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                        </div>
+                        <div class="tool-item">
+                            <i class="fas fa-tasks"></i>
+                            <span>JIRA</span>
+                        </div>
+                        <div class="tool-item">
+                            <i class="fab fa-wordpress"></i>
+                            <span>WordPress</span>
+                        </div>
+                        <div class="tool-item">
+                            <i class="fas fa-database"></i>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="tool-item">
+                            <i class="fas fa-leaf"></i>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Services</h2>
+                <p class="section-subtitle">What I can do for you</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>Clean and responsive interfaces with mobile-first principles, focusing on user experience and modern design trends.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Web Design & Development</h3>
+                    <p>Structured with HTML/CSS/JS, styled with modern layout techniques and best practices for scalable applications.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Frontend Logic & Interactivity</h3>
+                    <p>Interactive components including login forms, dashboards, games, and dynamic user interfaces.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Responsive Design</h3>
+                    <p>Optimized for all devices with flexible layouts that work seamlessly across desktop, tablet, and mobile.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Clean Code & Performance</h3>
+                    <p>Fast loading, maintainable, and efficient code following industry standards and best practices.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Quality Assurance</h3>
+                    <p>Thorough testing and debugging to ensure reliable, bug-free applications with excellent user experience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Some of my recent work</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/project1.jpg" alt="Agency and Client Management System">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" aria-label="View Live Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/sjshruti" class="project-link" aria-label="View GitHub Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Agency and Client Management System</h3>
+                        <p>Internal stakeholder management system with MySQL-PHP backend and responsive HTML/CSS/JS frontend for efficient client relationship management.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/project2.jpg" alt="E-Learn Hub Online Course Management System">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" aria-label="View Live Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/sjshruti" class="project-link" aria-label="View GitHub Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>E-Learn Hub: Online Course Management</h3>
+                        <p>Comprehensive course browsing and enrollment system with PHP/MySQL backend and interactive frontend for seamless learning experience.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/project3.jpg" alt="Snake Game">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="snake game/index.html" class="project-link" aria-label="View Live Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/sjshruti" class="project-link" aria-label="View GitHub Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Interactive Snake Game</h3>
+                        <p>Classic snake game built with vanilla JavaScript featuring smooth gameplay, score tracking, and responsive controls.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/project4.jpg" alt="Drawing Application">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="drawing app/index.html" class="project-link" aria-label="View Live Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/sjshruti" class="project-link" aria-label="View GitHub Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Interactive Drawing App</h3>
+                        <p>Web-based drawing application with multiple tools, color selection, and save functionality for creative digital art.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Canvas API</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Achievements</h2>
+                <p class="section-subtitle">Recognition and accomplishments</p>
+            </div>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>Hostel Secretary Award</h3>
+                        <p>Recognized for outstanding leadership and student coordination at CMR Institute of Technology</p>
+                        <span class="achievement-year">2025</span>
+                    </div>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>University High Grade Achievement</h3>
+                        <p>Awarded for academic excellence and outstanding performance in Computer Science studies</p>
+                        <span class="achievement-year">2023</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's discuss your next project</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <a href="mailto:shrutijayaswal671@gmail.com">shrutijayaswal671@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <a href="tel:+917619387964">+91 76193 87964</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>LinkedIn</h4>
+                            <a href="https://linkedin.com/in/shruti-jayaswal-a264b3215" target="_blank" rel="noopener">linkedin.com/in/shruti-jayaswal-a264b3215</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>GitHub</h4>
+                            <a href="https://github.com/sjshruti" target="_blank" rel="noopener">github.com/sjshruti</a>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required placeholder=" ">
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required placeholder=" ">
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" required placeholder=" ">
+                        <label for="subject">Subject</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" required placeholder=" " rows="5"></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i>
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2024 Shruti Jayaswal. All rights reserved.</p>
+                    <p>Built with passion and modern web technologies</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://linkedin.com/in/shruti-jayaswal-a264b3215" target="_blank" rel="noopener" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/sjshruti" target="_blank" rel="noopener" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:shrutijayaswal671@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
